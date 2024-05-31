@@ -29,17 +29,18 @@ const Contact = () => {
                     paddingLeft:'70px',
                     paddingTop:'20px'}}>
 
-                  <input type="text" name="name" placeholder="Your name"
+                  <input class="inputs" type="text" name="name" placeholder="Your name"
                   style={{
                     height:'40px',
                     width:'300px',
                     textAlign:'center',
+                    
                   }}
                   value={input.name}
                         onChange={handleInput}
                   ></input>
 
-                   <input type="text" name="email" placeholder="Your email"
+                   <input class="inputs" type="text" name="email" placeholder="Your email"
                   style={{
                     height:'40px',
                     width:'300px',
@@ -49,7 +50,7 @@ const Contact = () => {
                   value={input.email}
                         onChange={handleInput}
                   ></input>
-                   <input type="text" name="message" placeholder="Your message"
+                   <input class="input2" type="text" name="message" placeholder="Your message"
                   style={{
                     height:'210px',
                     width:'300px',

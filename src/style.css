@@ -503,4 +503,23 @@ background-color: #0d4292;
 color: white;
 }
 
+.inputs{
+  background-color: #F0F0F0;
+ /* color: white; */
+
+}
+.inputs::placeholder{
+  color: black;
+  font-weight: bold;
+  
+}
+.input2{
+  background-color: #F0F0F0;
+ /* color: white; */
+}
+.input2::placeholder{
+  color: black;
+  font-weight: bold;
+  
+}
 
