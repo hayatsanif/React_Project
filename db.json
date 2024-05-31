@@ -1,0 +1,116 @@
+{
+  "student": [
+    {
+      "id": 1,
+      "name": "mohit solanki",
+      "email": "mohit@gmail.com",
+      "password": "321"
+    },
+    {
+      "id": 2,
+      "name": "rohit sharma",
+      "email": "rohit@gmail.com",
+      "password": 345
+    },
+    {
+      "name": "twinkle",
+      "email": "twinkle@gmail.com",
+      "password": "111",
+      "id": 3
+    },
+    {
+      "name": "Abhishek",
+      "email": "abhi@gmail.com",
+      "password": "456",
+      "id": 4
+    },
+    {
+      "name": "Aalim sanif",
+      "email": "aalim@gmail.com",
+      "password": "1234",
+      "id": 5
+    },
+    {
+      "name": "ayush",
+      "email": "ayush@gmail.com",
+      "password": "1234",
+      "id": 6
+    },
+    {
+      "name": "sahil",
+      "email": "sahil@gmail.com",
+      "password": "123",
+      "id": 7
+    }
+  ],
+  "stucomplain": [
+    {
+      "id": 1,
+      "stuid": 11,
+      "complain": "internet not worrking",
+      "ans": "this is just test reply answer"
+    },
+    {
+      "stuid": 5,
+      "complain": "oddi wifi not properly wroking plaese do something",
+      "ans": "oddi is not wrokibg sdfdgdfgdfg",
+      "id": 2
+    },
+    {
+      "stuid": 1,
+      "complain": "net is not working",
+      "ans": "okay thanks for your review",
+      "id": 3
+    },
+    {
+      "stuid": 4,
+      "complain": "Net is not working properly",
+      "ans": "okay!!",
+      "id": 4
+    },
+    {
+      "stuid": 5,
+      "complain": "services is not good",
+      "ans": "okay get lost",
+      "id": 5
+    },
+    {
+      "stuid": 1,
+      "complain": "net is not working",
+      "ans": "",
+      "id": 6
+    },
+    {
+      "stuid": 6,
+      "complain": "net is not working",
+      "ans": "okay!!!!!!",
+      "id": 7
+    },
+    {
+      "stuid": 7,
+      "complain": "net is not working",
+      "ans": "",
+      "id": 8
+    }
+  ],
+  "adminuser": [
+    {
+      "id": 1,
+      "name": "admin",
+      "email": "admin@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "name": "rajesh",
+      "email": "raj@gmail.com",
+      "password": "raj123"
+    },
+    {
+      "id": 3,
+      "name": "sudhir",
+      "email": "sudhir@gmail.com",
+      "password": "sudhir123"
+    }
+  ]
+}
