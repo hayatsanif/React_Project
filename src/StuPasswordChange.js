@@ -48,9 +48,9 @@ const StuPasswordChange=()=>
         />
         <br></br>
 
-        Re-Enter New Password
+        Re-Enter New Password:
         <input  type="password" value={renewpass} name="renewpass" onChange={(e)=>{setReNewpass(e.target.value)}}
-         style={{ height: '25px',marginLeft:'15px'}}
+         style={{ height: '25px',marginLeft:'10px'}}
         />
        <br></br><br></br>
         <button className="btnpass"onClick={submitHandle}>Reset Your Password</button>
