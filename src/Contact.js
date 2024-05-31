@@ -1,5 +1,21 @@
-const Contact=()=>
-{
+import { useState } from "react";
+import axios from "axios";
+
+const Contact = () => {
+
+
+  const [input, setInput] = useState({});
+
+      const handleInput = (e) => {
+          let name = e.target.name;
+          let value = e.target.value;
+          setInput(values => ({ ...values, [name]: value }));
+      }
+  
+      const handleSubmit=()=>{
+          let url="http://localhost:4000/contact";
+          axios.post(url,input).then(alert("Thank you! Your message has been sent successfully."));
+      }
     return(
 
         <>
@@ -13,31 +29,37 @@ const Contact=()=>
                     paddingLeft:'70px',
                     paddingTop:'20px'}}>
 
-                  <input type="text" placeholder="Your name"
+                  <input type="text" name="name" placeholder="Your name"
                   style={{
                     height:'40px',
                     width:'300px',
-                    textAlign:'center'
+                    textAlign:'center',
                   }}
+                  value={input.name}
+                        onChange={handleInput}
                   ></input>
 
-                   <input type="text" placeholder="Your email"
+                   <input type="text" name="email" placeholder="Your email"
                   style={{
                     height:'40px',
                     width:'300px',
                     textAlign:'center',
                     marginTop:'7%',
                   }}
+                  value={input.email}
+                        onChange={handleInput}
                   ></input>
-                   <input type="text" placeholder="Your message"
+                   <input type="text" name="message" placeholder="Your message"
                   style={{
                     height:'210px',
                     width:'300px',
                     textAlign:'center',
                     marginTop:'7%',
                   }}
+                  value={input.message}
+                        onChange={handleInput}
                   ></input>
-                  <button class="button1">submit</button>
+                  <button class="button1" onClick={handleSubmit}>submit</button>
                
             </div>
             

@@ -112,5 +112,25 @@
       "email": "sudhir@gmail.com",
       "password": "sudhir123"
     }
+  ],
+  "contact": [
+    {
+      "id": 1,
+      "name": "hayat",
+      "email": "hayatsanif@gmail.com",
+      "message": "not working"
+    },
+    {
+      "id": 2,
+      "name": "neha",
+      "email": "neha@gmail.com",
+      "message": "not working"
+    },
+    {
+      "name": "divyansh",
+      "email": "d@gmail.com",
+      "message": "skdjfo9hevinwkefkewf",
+      "id": 3
+    }
   ]
 }
