@@ -24,11 +24,15 @@ const Contact = () => {
         <div class="hey" >
             <div class="hey1" >
             </div>
-                <div class="hey2"  style={{
+                <div class="hey2"
+                 style={{
                     backgroundColor:"white",height:"100px",width:"200px",
                     paddingLeft:'70px',
-                    paddingTop:'20px'}}>
-
+                    paddingTop:"20px",
+                    }}
+                    
+                    >
+                          
                   <input class="inputs" type="text" name="name" placeholder="Your name"
                   style={{
                     height:'40px',
